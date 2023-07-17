@@ -52,3 +52,13 @@ body{
      border-bottom: 2px solid  rgb(9, 102, 102);
     
 }
+.header-image-wrapper{
+    position: relative;
+}
+.header-image-content{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
