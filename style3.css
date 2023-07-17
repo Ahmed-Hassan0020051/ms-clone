@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 48px;
+}
+
+
+.main-nav ul{
+     display: flex; 
+    list-style-type: none;
+    
+    
+}
+.main-nav ul li{
+    margin: 12px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main-nav ul li a:hover{
+    border-bottom: 2px solid black;
+
+
+}
+
+.header-image-wrapper img{
+    width: 100%;
+}
+.ms-products-wrapper{
+    display: flex;
+
+}
+.product-card{
+    width: 25%;
+    
+    margin:60px  20px;
+    padding: 10px;
+    
+}
+.ms-products-wrapper img{
+    width: 100%;
+}
+.ms-products-wrapper .product-card a{
+    text-decoration: none;
+    color: rgb(9, 102, 102);
+}
+.ms-products-wrapper .product-card a:hover{
+     border-bottom: 2px solid  rgb(9, 102, 102);
+    
+}
