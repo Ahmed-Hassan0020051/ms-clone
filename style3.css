@@ -19,18 +19,25 @@ body{
 .main-nav ul li{
     margin: 12px;
 }
+
 .main-nav ul li a{
     text-decoration: none;
     color: black;
+}
+.main-nav ul li a{
+    display: flex;
+    align-items: center;
+}
+.main-nav ul li img{
+    width: 100px;
+
 }
 .main-nav ul li a:hover{
     border-bottom: 2px solid black;
 
 
 }
-.main-links h5{
-    padding: 20px;
-}
+
 
 
 .header-image-wrapper img{
@@ -40,7 +47,7 @@ body{
     position: relative;
 }
 .header-image-overlay{
-    width: 40%;
+    width: 25%;
     position: absolute;
     background-color: white;
     padding: 15px;
@@ -48,14 +55,18 @@ body{
     left: 10%;
     transform: translateY(-50%);
 }
-.header-image-overlay a{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(9, 102, 102);
+.header-image-overlay-link{
+    width: 50%;
+    margin-bottom: 20px;
+
+    
 
 }
-
-
+.header-image-overlay-link a{
+text-decoration: none;
+color: white;
+background-color: #0067ba;
+}
 .ms-products-wrapper{
     display: flex;
 
@@ -72,10 +83,10 @@ body{
 }
 .ms-products-wrapper .product-card a{
     text-decoration: none;
-    color: rgb(9, 102, 102);
+    color: #0067ba;
 }
 .ms-products-wrapper .product-card a:hover{
-     border-bottom: 2px solid  rgb(9, 102, 102);
+     border-bottom: 2px solid  #0067ba;
     
 }
 .ms-image-wrapper img{
@@ -83,6 +94,7 @@ body{
 }
 .ms-image-wrapper{
     position: relative;
+    margin-bottom:30px ; 
 }   
   
 
@@ -92,19 +104,22 @@ body{
     top: 50%;
     left: 10%;
     transform: translateY(-50%);
+     
 }
 .ms-image-wrapper .ms-image-overlay a{
     text-decoration: none;
     color: white;
-    background-color: rgb(9, 102, 102);
+    background-color:  #0067ba;
 }
 
 .heading h2{
-    margin-top: 30px;
+    margin:40px; 
 
 }
 .bottom-products-wrapper{
+    margin-top: 0;
     display: flex;
+
 }
 .product-card{
     width: 25%;
@@ -117,11 +132,11 @@ body{
 }
 .bottom-products-wrapper .product-card a{
     text-decoration: none;
-    color: rgb(9, 102, 102);
+    color:  #0067ba;
 }
 
 .bottom-products-wrapper .product-card a:hover{
-    border-bottom: 2px solid rgb(9, 102, 102) ;
+    border-bottom: 2px solid  #0067ba ;
 
 
 }
@@ -132,7 +147,11 @@ body{
     display: flex; 
    list-style-type: none;
 }
-.main-links ul li{
+.main-links ul h5{
+    display: flex;
+}
+.main-links ul li {
+    display: flex;
    margin: 12px;
 }
 .main-links ul li a{
@@ -146,7 +165,7 @@ body{
 }
 .bottom-links{
     display: flex;
-    background-color: wheat;
+    background: color #f2f2f2;;
 }
 
 .bottom-links ul{
@@ -168,7 +187,10 @@ body{
     margin: 0 auto;
 
 }
-    
+.bottom-links ul h5{
+    display: flex;
+    align-items: center;
+}    
 
 
 
