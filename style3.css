@@ -26,10 +26,34 @@ body{
 
 
 }
+.main-links h5{
+    padding: 20px;
+}
+
 
 .header-image-wrapper img{
     width: 100%;
 }
+.header-image-wrapper{
+    position: relative;
+}
+.header-image-overlay{
+    width: 40%;
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+.header-image-overlay a{
+    text-decoration: none;
+    color: blue;
+}
+.header-image-overlay a:hover{
+    border-bottom: 2px solid blue;
+}
+
 .ms-products-wrapper{
     display: flex;
 
@@ -52,13 +76,93 @@ body{
      border-bottom: 2px solid  rgb(9, 102, 102);
     
 }
-.header-image-wrapper{
-    position: relative;
+.ms-image-wrapper img{
+    width: 100%;
 }
-.header-image-content{
+.ms-image-wrapper{
+    position: relative;
+}   
+  
+
+.ms-image-overlay{
+    width: 40%;
     position: absolute;
-    width: 30%;
     top: 50%;
-    left: 15%;
+    left: 10%;
     transform: translateY(-50%);
 }
+.ms-image-wrapper .ms-image-overlay a{
+    text-decoration: none;
+    color: blue;
+}
+.ms-image-wrapper .ms-image-overlay a:hover{
+    border-bottom: 2px solid blue;
+}
+.heading h2{
+    margin-top: 30px;
+
+}
+.bottom-products-wrapper{
+    display: flex;
+}
+.product-card{
+    width: 25%;
+    
+    margin:60px  20px;
+    padding: 0;  
+}
+.bottom-products-wrapper img{
+    width: 100%;
+}
+.bottom-products-wrapper .product-card a{
+    text-decoration: none;
+    color: rgb(9, 102, 102);
+}
+
+.bottom-products-wrapper .product-card a:hover{
+    border-bottom: 2px solid rgb(9, 102, 102) ;
+
+
+}
+.main-links{
+    display: flex;
+}
+.main-links ul{
+    display: flex; 
+   list-style-type: none;
+}
+.main-links ul li{
+   margin: 12px;
+}
+.main-links ul li a{
+   text-decoration: none;
+   color: black;
+}
+.main-links ul li a:hover{
+   border-bottom: 2px solid black;
+
+
+}
+.bottom-links{
+    display: flex;
+    background-color: wheat;
+}
+
+.bottom-links ul{
+    
+   list-style-type: none;
+}
+.bottom-links ul li{
+   margin: 12px;
+}
+.bottom-links ul li a{
+   text-decoration: none;
+   color: black;
+}
+.bottom-links ul li a:hover{
+   border-bottom: 2px solid black;
+}
+    
+
+
+
