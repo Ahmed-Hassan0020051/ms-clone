@@ -6,10 +6,8 @@ body{
 .main-nav{
     display: flex;
     justify-content: space-between;
-    padding: 6px 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-   
+    padding: 6px 48px;
+    margin: 5px;   
 }
 
 
@@ -21,7 +19,7 @@ body{
 }
 .main-nav ul li{
     margin: 12px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .main-nav ul li a{
@@ -34,17 +32,10 @@ body{
 }
 .main-nav ul li img{
     width: 100px;
-
 }
 .main-nav ul li a:hover{
     border-bottom: 2px solid black;
-
-
 }
-
-
-
-
 
 .header-image-wrapper img{
     width: 100%;
@@ -88,9 +79,12 @@ padding: 5px;
     width: 25%;
     
     margin:60px  20px;
-    padding: 10px;
     
     
+  
+    
+
+
 }
 .ms-products-wrapper img{
     width: 100%;
@@ -100,12 +94,38 @@ padding: 5px;
 .ms-products-wrapper .product-card a{
     text-decoration: none;
     color: #0067ba;
+    display: flex;
+    align-items: center;
     
 }
+
+
+
+
 .ms-products-wrapper .product-card a:hover{
      border-bottom: 2px solid  #0067ba;
     
 }
+
+.download-buttons{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.download-buttons .material-symbols-outlined {
+    color:  #0067ba;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  
+}
+
+
+
 .ms-image-wrapper img{
     width: 100%;
 }
